@@ -22,11 +22,11 @@ Before running the scripts, you **must** update the Private Key to your own Alph
 
 1. Open `run_alpha.py` or `test_alpha.py`.
 2. Locate the following line:
+
 ```python
 PK = "YOUR_PRIVATE_KEY_HERE"
 
 ```
-
 
 3. Replace `"YOUR_PRIVATE_KEY_HERE"` with your actual Private Key.
 
@@ -88,3 +88,8 @@ python3 test_alpha.py
 The successful deployment of this workflow can be verified on the OpenGradient Alpha Explorer using the contract address: `0x6c0C8A85e737e95d913B78cd5270b8fC59b5bC61`.
 
 ---
+
+## 📸 Deployment Proof
+
+Below is the terminal output confirming the successful deployment and workflow registration on the OpenGradient Alpha Testnet:
+![Deployment Success](./deployment_screenshot.png)
